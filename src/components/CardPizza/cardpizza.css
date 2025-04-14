@@ -1,0 +1,78 @@
+.card {
+    /* background-color: rgb(129, 234, 255); */
+    width: 23rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+    border: 1px solid lightgrey;
+    margin:1rem;
+}
+
+.imagen {
+    width: 100%;
+}
+
+.div-ingredientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding:1rem;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    border-left: none;
+    border-right: none;
+    gap:0.75rem;
+}
+
+.div-precio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.span-btn {
+    display: flex;
+    gap:5rem;
+    padding:1rem;
+}
+
+#div-pizza {
+    text-align: start;
+    width: 100%;
+    padding-left: 1rem;
+}
+
+#span-ingredientes {
+    font-size: larger;
+    color: rgb(68, 68, 68);
+    
+}
+
+.btn-card1 {
+    background-color: white;
+    padding: 0.3rem;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.btn-card2 {
+    background-color: rgb(0, 0, 0);
+    padding: 0.3rem;
+    border-radius: 4px;
+    border: 1px solid black;
+    color:white;
+}
+
+.btn-card1:hover {
+    background-color: rgb(249, 249, 249);
+    cursor: pointer;
+}
+
+.btn-card2:hover {
+    background-color: rgb(86, 86, 86);
+    cursor: pointer;
+}

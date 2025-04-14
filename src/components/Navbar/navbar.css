@@ -1,0 +1,35 @@
+.navbar {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    height: 3rem;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btns {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 0.2rem
+}
+
+.btns:hover, .btn-compra:hover{
+    cursor: pointer;
+    background-color: rgb(61, 61, 61);
+}
+
+.btn-compra {
+    background-color: black;
+    color: rgb(0, 169, 184);
+    border: 1px solid rgb(0, 169, 184);
+    border-radius: 3px;
+    padding: 0.2rem
+}
